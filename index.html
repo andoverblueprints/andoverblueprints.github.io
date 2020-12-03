@@ -21,9 +21,9 @@
         </div>
         <div class="header-links">
             <div class="page-links">
-                <a href="">Learn More</a>
-                <a href="">Join Us</a>
-                <a href="">Sponsor Us</a>
+                <a href="#learn-more">Learn More</a>
+                <a href="#join-us">Join Us</a>
+                <a href="#sponsor-us">Sponsor Us</a>
             </div>
             <div class="socials">
                 <a href="https://www.instagram.com/andoverblueprints/"><img src="media/instagram-icon.png"
@@ -51,7 +51,7 @@
                 <div class="text">An early sketch from the design process</div>
             </div>
         </div>
-        <div class="text-section intro">
+        <div class="text-section intro" id="learn-more">
             <span id="biggest-text">Also known as ACES, Andover Blueprints has focused on self-educating via engineering
                 competitions
                 since 2017.</span><span><br><br>The team typically consists of six members, who work year-round to
@@ -153,17 +153,17 @@
             <a href="media/Fall-2020-SponsorshipInfoPacket.pdf" target="_blank">Download our Sponsorship Information
                 Packet</a>
         </div>
-        <form action="POST">
-            <h2>Get in Touch:</h2>
-            <label for="name">Name: </label>
-            <input type="text" name="name" placeholder="Name">
-            <label for="email">Email: </label>
-            <input type="text" name="email" placeholder="Email">
-            <label for="Subject">Subject: </label>
-            <input type="text" name="subject" placeholder="Subject">
-            <label for="message">Message: </label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-        </form>
+        <div class="form">
+            <form action="POST">
+                <h2>Get in Touch:</h2>
+                <div class="name-email"><input type="text" name="name" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email"></div>
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </form>
+            <img src="media/gelb.jpg" alt="Gelb Science Center">
+        </div>
     </main>
     <footer>
         <img src="media/ABLogoTransparent.png" alt="Andover Blueprints" width="50px">
