@@ -1,0 +1,129 @@
+*,
+html,
+body,
+main {
+  margin     : 0px;
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #001360;
+  font-weight: 900;
+}
+/*HEADER*/
+header {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-area {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-title {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.header-links {
+  display        : flex;
+  width          : 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.socials, .page-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: fit-content;
+}
+.page-links {
+  width: 30%;
+}
+.socials {
+  width: 20%;
+}
+.socials a {
+  height: 20px;
+}
+
+/*SLIDESHOW*/
+.slideshow-container {
+  width    : 100vw;
+  max-width: 2000px;
+  position : relative;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.show {
+  display: block;
+}
+
+.slide img {
+  clip    : rect(0px, 2000px, 200px, 600px);
+  overflow: hidden;
+}
+
+.text {
+  color     : #f2f2f2;
+  font-size : 15px;
+  padding   : 8px 12px;
+  position  : absolute;
+  bottom    : 8px;
+  width     : 100%;
+  text-align: right;
+}
+
+/*TEXT CONTENT*/
+.text-section {
+  margin-left : 50px;
+  margin-right: 50px;
+  margin-top  : 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p, span {
+  padding-bottom: 10px;
+  line-height: 1.5;
+}
+/*INTRO*/
+.intro {
+  margin-top: 50px;
+}
+#biggest-text {
+  font-size: larger;
+}
+/*COMPETITION DISCUSSION*/
+.competitions {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.competition-upcoming {
+  width: 47%;
+  border: none;
+}
+.competition-past {
+  width: 47%;
+  border: none;
+}
