@@ -7,12 +7,6 @@
     <title>Andover Blueprints</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="slides.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-        function onSubmit(token) {
-          document.getElementById("contact-form").submit();
-        }
-      </script>
     <link rel="icon" type="image/x-icon" href="media/ABLogoTransparent.png">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     <!--ADD favicon, style sheet, fonts, etc. here-->
@@ -167,10 +161,7 @@
                     <input type="email" name="_replyto" placeholder="Email"></div>
                 <input type="text" name="subject" placeholder="Subject">
                 <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                <button type="submit" class="g-recaptcha" 
-                data-sitekey="6LeOrtAbAAAAAP9The8HirYSfXnKeu4R59LmgfyL" 
-                data-callback='onSubmit' 
-                data-action='submit'>Submit</button>
+                <button type="submit">Submit</button>
             </form>
             <img src="media/gelb.jpg" alt="Gelb Science Center">
         </div>
